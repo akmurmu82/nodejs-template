@@ -1,14 +1,19 @@
 // import packages
 const express = require("express");
 const connection = require("./config/db");
+const cors = require("cors");
 require("dotenv").config();
 
 // Environmental variable
-const mongo_uri = process.env.MONGO_URI;
+const mongo_uri = process.env.MONGO_URI; // setup the mongoURI first
 const port = process.env.PORT;
 
 // intialising server/app
 const app = express();
+
+// Middlewares
+app.use(express.json());
+app.use(cors());
 
 // main route
 app.get("/", (req, res) => {
