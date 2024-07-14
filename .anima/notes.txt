@@ -1,0 +1,5 @@
+packages installed
+- dotenv
+- express
+- mongoose
+- nomdemon
