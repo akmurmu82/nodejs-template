@@ -66,9 +66,10 @@ nodejs-template/
 ├── .gitignore
 ├── index.js
 ├── package-lock.json
-└── package.json
-└── notes.md
+├── package.json
+├── notes.md
 └── README.md
+
 
 - `index.js`: Entry point of the application where Express server is initialized.
 - `db.js`: Contains the MongoDB connection setup using Mongoose.
