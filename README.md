@@ -62,12 +62,12 @@ nodejs-template/
 ├── models/
 ├── node_modules/
 ├── routes/
-└── .env
-└── .gitignore
-└── index.js
-└── package-lock.json
-└── package.json
-└── notes.md
+├── .env
+├── .gitignore
+├── index.js
+├── package-lock.json
+├── package.json
+├── notes.md
 └── README.md
 
 
